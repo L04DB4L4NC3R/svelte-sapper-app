@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  ignore:
+  - dependency-name: sirv
+    versions:
+    - 1.0.10
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
